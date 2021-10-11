@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+header h2 {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    padding-top: 36px;
+    margin-bottom: 55px;
+}
+
+header h1 {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+section img {
+    display: block ;
+    background-color: #FFE7E7;
+    border-radius: 8px;
+    margin: 0 auto;
+    width: auto;
+}
+
+section p {
+    font-size: 19px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+section button {
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    width: 97px;
+    height: 42px;
+}
+
+section .firstButton {
+    display: flex;
+    justify-content: center;
+}
+
+section.first {
+    padding: 0 48px;
+    margin-bottom: 76px;
+}
+
+section.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-bottom: 76px;
+}
+
+section.flex h3 {
+    font-size: 27px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #1C1E23;
+    margin: 0;
+}
+
+section.flex p {
+    font-size: 19px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;
+}
+
+.block {
+    margin-left: 24px;
+}
+
+.flex.second .block {
+    margin-left: 0px;
+    margin-right: 24px;
+}
+
+section.text p {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+section.text {
+    padding: 0 28px;
+}
+
+hr {
+    margin: 0 28px;
+    height: 2px;
+    background-color: #000000;
+}
+
+footer {
+    text-align: center;
+    max-width: 347px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0 auto;
+}
+
+footer p.first {
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+footer p {
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+footer .icons img {
+    margin-right: 32px;
+    margin-bottom: 29px;
+}
+
+footer p {            
+    font-size: 13px;
+}
+
+footer p.underline {
+    text-decoration: underline;
+}
+
+footer p.logo {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
